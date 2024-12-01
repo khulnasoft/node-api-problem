@@ -1,0 +1,40 @@
+{
+  "version": "0.0.0-semantically-released",
+  "name": "api-problem",
+  "description": "HTTP Problem Utility",
+  "author": "KhulnaSoft <email@khulnasoft.com> (https://www.khulnasoft.com)",
+  "homepage": "https://github.com/khulnasoft/api-problem",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/node-api-problem.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/khulnasoft"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "api",
+    "http",
+    "problem"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/khulnasoft/node-api-problem/issues"
+  },
+  "scripts": {
+    "test": "tap test --no-coverage",
+    "test:watch": "tap test --watch",
+    "test:ci": "tap test --100",
+    "test:report": "opener coverage/lcov-report/index.html"
+  },
+  "devDependencies": {
+    "tap": "^16.3.0"
+  }
+}
